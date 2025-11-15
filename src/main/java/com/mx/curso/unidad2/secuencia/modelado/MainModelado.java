@@ -8,8 +8,7 @@ public class MainModelado {
         House house = new House();
         house.setColor("Blue");
         house.setSize("Big");
-        System.out.println("Nombre:" + house.getColor());
+        System.out.println("Color:" + house.getColor());
         System.out.println("Size:" + house.getSize());
-
     }
 }

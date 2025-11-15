@@ -1,22 +1,22 @@
 package com.mx.curso.unidad2.secuencia.modelado;
 
 public class House {
-    private String Color;
-    private String Size;
+    private String color;
+    private String size;
 
     public String getColor() {
-        return Color;
+        return color;
     }
 
     public void setColor(String color) {
-        Color = color;
+        this.color = color;
     }
 
     public String getSize() {
-        return Size;
+        return size;
     }
 
     public void setSize(String size) {
-        Size = size;
+        this.size = size;
     }
 }
