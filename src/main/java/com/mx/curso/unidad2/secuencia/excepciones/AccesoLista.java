@@ -1,0 +1,23 @@
+package com.mx.curso.unidad2.secuencia.excepciones;
+
+import java.util.Scanner;
+
+public class AccesoLista {
+
+    static void main(String[] args) {
+
+        int [] arr = {1, 2, 3};
+        Scanner scanner = new Scanner(System.in);
+        int dato = 0;
+        try {
+            System.out.println("Ingresa una posicion");
+            dato = scanner.nextInt();
+            System.out.println(arr[dato]);
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println("Error: Posicion fuera de los " +
+                    "limites del arreglo.");
+        }finally {
+            scanner.close();
+        }
+    }
+}
