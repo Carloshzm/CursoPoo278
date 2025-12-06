@@ -6,6 +6,26 @@ public class Instructor {
     private String contacto;
     private String disciplina;
 
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getContacto() {
+        return contacto;
+    }
+
+    public void setContacto(String contacto) {
+        this.contacto = contacto;
+    }
+
+    public void setDisciplina(String disciplina) {
+        this.disciplina = disciplina;
+    }
+
     public Instructor(String id, String nombre, String contacto, String disciplina) {
         this.id = id;
         this.nombre = nombre;

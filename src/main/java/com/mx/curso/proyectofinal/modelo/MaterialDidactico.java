@@ -6,6 +6,30 @@ public class MaterialDidactico {
     private String tipo;
     private String idDisciplina;
 
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public void setIdMaterial(String idMaterial) {
+        this.idMaterial = idMaterial;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public String getIdDisciplina() {
+        return idDisciplina;
+    }
+
+    public void setIdDisciplina(String idDisciplina) {
+        this.idDisciplina = idDisciplina;
+    }
+
     public MaterialDidactico(String idMaterial, String titulo, String tipo, String idDisciplina) {
         this.idMaterial = idMaterial;
         this.titulo = titulo;

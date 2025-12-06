@@ -8,6 +8,42 @@ public class Planeacion {
     private int cantidadSesiones;
     private Instructor instructor;
 
+    public void setIdDisciplina(String idDisciplina) {
+        this.idDisciplina = idDisciplina;
+    }
+
+    public int getGrado() {
+        return grado;
+    }
+
+    public void setGrado(int grado) {
+        this.grado = grado;
+    }
+
+    public int getNumeroSemana() {
+        return numeroSemana;
+    }
+
+    public void setNumeroSemana(int numeroSemana) {
+        this.numeroSemana = numeroSemana;
+    }
+
+    public int getCantidadSesiones() {
+        return cantidadSesiones;
+    }
+
+    public void setCantidadSesiones(int cantidadSesiones) {
+        this.cantidadSesiones = cantidadSesiones;
+    }
+
+    public Instructor getInstructor() {
+        return instructor;
+    }
+
+    public void setInstructor(Instructor instructor) {
+        this.instructor = instructor;
+    }
+
     public Planeacion(String idDisciplina, int grado, String fecha, int numeroSemana,
                       int cantidadSesiones, Instructor instructor) {
         this.idDisciplina = idDisciplina;
