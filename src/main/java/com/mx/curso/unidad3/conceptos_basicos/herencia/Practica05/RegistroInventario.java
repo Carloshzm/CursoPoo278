@@ -10,6 +10,5 @@ public class RegistroInventario {
 
     public static void main(String[] args) {
 
-        RegistrarMovimiento registrarMovimiento = RegistrarMovimiento;
     }
 }

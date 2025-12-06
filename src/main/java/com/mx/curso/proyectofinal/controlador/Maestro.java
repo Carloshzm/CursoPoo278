@@ -37,7 +37,7 @@ public class Maestro {
         public static void main(String[] args) {
 
             Maestro m = new Maestro("MAE01", "Laura Torres", "5587654321",
-                    "laura.t@simbolivar.edu.mx", "Historia", 3, "Simon Bolivar");
+                    "laura.t@simonbolivar.edu.mx", "Historia", 3, "Simon Bolivar");
 
             System.out.println("Mostrando maestro:");
             m.mostrarInfo();
